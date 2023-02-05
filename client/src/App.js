@@ -7,16 +7,19 @@ function App() {
     <div className="App">
      {!loggedIn ? (
       <div className='login'>
+        <div className='inputs>'>
 
-      <input 
-      type='text'
-      placeholder='username'
+            <input 
+          type='text'
+          placeholder='username'
 
-      />
-      <input 
-      type="text"
-      placeholder='chatroom id'
-      />
+          />
+          <input 
+          type="text"
+          placeholder='chatroom id'
+          />
+        </div>
+      
       <button>Enter chatroom</button>
 
       </div>

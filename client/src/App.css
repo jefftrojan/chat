@@ -5,5 +5,20 @@ body {
 .App {
   display: grid;
   place-content: center;
+  background-color: #2a2a2a;
   height: 100vh;
+}
+.login {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  width: 600px;
+  height: 320px;
+  border: 5px solid #cecece;
+  border-radius: 12px;
+}
+
+.inputs{
+  flex-direction: row;
 }
