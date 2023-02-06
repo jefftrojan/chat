@@ -7,7 +7,7 @@ function App() {
     <div className="App">
      {!loggedIn ? (
       <div className='login'>
-        <div className='inputs>'>
+        <div className='inputs'>
 
             <input 
           type='text'
